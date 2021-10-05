@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+  .carte {
+    flex-direction: column;
+    align-items: center;
+  }
+  .carte section {
+    width: 90%;
+    margin-bottom: 35px;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */

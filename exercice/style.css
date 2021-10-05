@@ -1,0 +1,96 @@
+h1 {
+  text-align: center;
+  color: #D95F69;
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  margin-top: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.main .main-section {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.438);
+  padding: 10px;
+  width: 30%;
+  border-radius: 15px;
+  font-family: "Lato", sans-serif;
+}
+.main .main-section__item {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #BFB99B;
+  color: #F29544;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.main .main-section_note {
+  font-size: 12px;
+  color: #BFB99B;
+  font-weight: bold;
+}
+.main .main-section__heading {
+  color: #D95F69;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  margin-top: 0;
+}
+@media (max-width: 992px) {
+  .main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .main-section:not(:last-child) {
+    flex-basis: 48%;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+  }
+  .main-section:last-child {
+    flex-basis: 96%;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .main-section {
+    width: 90%;
+    flex-basis: 90%;
+    margin-bottom: 35px;
+  }
+}
+
+.commande {
+  width: 100%;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.commande p {
+  color: #F29544;
+  font-size: 20px;
+}
+.commande button {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.438);
+  background-color: #BFB99B;
+  border: 2px solid #BFB99B;
+  padding: 8px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bolder;
+}
+.commande button:hover {
+  color: #F29544;
+  cursor: pointer;
+}
+.commande button:active {
+  color: #F29544;
+  cursor: pointer;
+  background-color: #F2E18D;
+}
+
+/*# sourceMappingURL=style.css.map */

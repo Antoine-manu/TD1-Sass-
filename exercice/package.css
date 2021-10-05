@@ -1,0 +1,84 @@
+/* h1{
+    text-align: center;
+    color: #D95F69;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-top: 0;
+
+} */
+
+
+/* .carte{
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* section{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.438);
+    padding: 10px;
+    width: 30%;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+
+} */
+
+/* h2{
+    color: #D95F69;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin-top: 0;
+
+} */
+
+/* .entree, .plat, .dessert{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #BFB99B;
+    color: #F29544;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+} */
+
+.note{
+    font-size: 12px;
+    color: #BFB99B;
+    font-weight: bold;
+}
+
+/* .commande{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+} */
+
+/* .commande p{
+    color: #D95F69;
+    font-size: 20px;
+} */
+
+/* .commande button{
+    background-color: #BFB99B;
+    border: 2px solid #BFB99B;
+    padding: 8px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.308);
+    border-radius: 7px;
+    color: white;
+    font-weight: bolder;
+} */
+
+/* .commande button:hover{
+    color: #D95F69;
+    cursor: pointer;
+}
+
+.commande button:active{
+    color: #D95F69;
+    cursor: pointer;
+    background-color: #F2E18D;
+    
+} */
+
